@@ -1,6 +1,9 @@
 {
   "version": 2,
-  "name": "Practice-Day-3",
-  "builds": [{ "src": "index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/index.js", "dest": "/index.js" }]
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "vercel-sapper"
+    }
+  ]
 }
